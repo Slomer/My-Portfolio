@@ -15,6 +15,11 @@ const trees = [
   "./treeDrawings/tree4.jpg",
 ];
 
+const sources = [
+  "./sourceImages/clock.jpg",
+];
+
+
 document.querySelector("#app").innerHTML = `
   <main id="container">
     <section id="heading">
@@ -65,9 +70,9 @@ document.querySelector("#app").innerHTML = `
         </div>
         <div id="images-description">
           <div id="images">
-            ${cubes
+            ${sources
               .map(
-                (cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`
+                (sources, index) => `<img src="${sources}" alt="source${index + 1}" />`
               )
               .join("")}
           </div>
