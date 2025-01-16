@@ -6,7 +6,6 @@ const cubes = [
   "./cubeDrawings/Sam1.jpg",
   "./cubeDrawings/cube2.webp",
   "./cubeDrawings/cube3.webp",
-  "./cubeDrawings/cube4.webp",
 ];
 
 const trees = [
