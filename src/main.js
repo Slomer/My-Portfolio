@@ -15,16 +15,13 @@ const trees = [
   "./treeDrawings/tree4.jpg",
 ];
 
-const sources1 = [
-  "./sourceImages1/clock.jpg",
-  "./sourceImages1/stars.webp",
-  "./sourceImages1/andygood.jpg",
-  "./sourceImages1/tecumseh.jpg",
+const sources = [
+  "./sourceImages/clock.jpg",
+  "./sourceImages/stars.webp",
+  "./sourceImages/andygood.jpg",
+  "./sourceImages/tecumseh.jpg",
+  "./sourceImages/station.jpg",  
 ];
-
-const sources2 = [
-  "./sourceImages2/station.jpg",
-]
 
 
 document.querySelector("#app").innerHTML = `
@@ -71,10 +68,9 @@ document.querySelector("#app").innerHTML = `
       </div>
 
       <div id="project-row">
-      Sources
         <div id="images-description">
           <div id="images">
-            ${sources1
+            ${sources
               .map(
                 (source, index) => `<img src="${source}" alt="source${index + 1}" />`
               )
