@@ -96,7 +96,7 @@ h1 {
 #model1,
 #model2,
 #model3 {
-  height: 750px;
+  height: 700px;
   width: 400px;
   margin-right: 3em;
   margin-left: 6em;
@@ -105,10 +105,11 @@ h1 {
 
 img {
   /* Image dimensions and margin */
-  height: 120px;
-  width: 120px;
+  height: 200px;
+  width: 200px;
   margin: 0.5em;
 }
+
 
 #images {
   /* Center image container */
