@@ -35,7 +35,7 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       Cadavre Exquis
         <div class="three-model">
-          <img src="./aurora.jpg" id="model1" alt="Cadavre Exquis" />
+          <img src="./houseDrawings/house1.jpg" id="model1" alt="Cadavre Exquis" />
         </div>
         <div id="images-description">
           <div id="images">
