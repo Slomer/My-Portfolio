@@ -85,20 +85,6 @@ document.querySelector("#app").innerHTML = `
       </div>
     </section>
 
-          <div id="project-row">
-        <div id="images-description">
-          <div id="images">
-            ${sources1
-              .map(
-                (source, index) => `<img src="${source}" alt="source${index + 1}" />`
-              )
-              .join("")}
-          </div>
-          <h4 id="description">A 3D house model is a geometric representation of a house, featuring walls, a roof, and windows. It often includes additional details such as doors, chimneys, and balconies, with textures like brick, wood, or stucco to enhance realism. The interior may also feature rooms, furniture, and lighting for a more detailed design.</h4>
-        </div>
-      </div>
-    </section>
-
     <ul id="footer-items">
       <li>Email: ${data.contact.email}</li>
       <li>Phone: ${data.contact.phone}</li>
