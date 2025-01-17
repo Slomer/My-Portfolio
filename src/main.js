@@ -15,9 +15,16 @@ const trees = [
   "./treeDrawings/tree4.jpg",
 ];
 
-const sources = [
-  "./sourceImages/clock.jpg",
+const sources1 = [
+  "./sourceImages1/clock.jpg",
+  "./sourceImages1/stars.webp",
+  "./sourceImages1/andygood.jpg",
+  "./sourceImages1/tecumseh.jpg",
 ];
+
+const sources2 = [
+  "./sourceImages2/station.jpg",
+]
 
 
 document.querySelector("#app").innerHTML = `
@@ -70,14 +77,21 @@ document.querySelector("#app").innerHTML = `
         </div>
         <div id="images-description">
           <div id="images">
-            ${sources
+            ${sources1
               .map(
-                (sources, index) => `<img src="${sources}" alt="source${index + 1}" />`
+                (source, index) => `<img src="${source}" alt="source${index + 1}" />`
               )
               .join("")}
           </div>
           <h4 id="description">A 3D house model is a geometric representation of a house, featuring walls, a roof, and windows. It often includes additional details such as doors, chimneys, and balconies, with textures like brick, wood, or stucco to enhance realism. The interior may also feature rooms, furniture, and lighting for a more detailed design.</h4>
         </div>
+          <div id="images">
+            ${sources2
+              .map(
+                (source, index) => `<img src="${source}" alt="source${index + 1}" />`
+              )
+              .join("")}
+          </div>
       </div>
     </section>
 
