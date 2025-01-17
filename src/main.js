@@ -71,7 +71,7 @@ document.querySelector("#app").innerHTML = `
       </div>
 
       <div id="project-row">
-      Image Sources
+      Sources
         <div class="three-model">
           <div id="model3"></div>
         </div>
