@@ -88,7 +88,7 @@ document.querySelector("#app").innerHTML = `
       </div>
 
       <div id="project-row">
-        <div id="images">
+          <div id="images">
             ${sources2
               .map(
                 (source, index) => `<img src="${source}" alt="source${index + 1}" />`
