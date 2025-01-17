@@ -72,9 +72,6 @@ document.querySelector("#app").innerHTML = `
 
       <div id="project-row">
       Sources
-        <div class="three-model">
-          <div id="model3"></div>
-        </div>
         <div id="images-description">
           <div id="images">
             ${sources1
