@@ -79,6 +79,9 @@ document.querySelector("#app").innerHTML = `
             <a href="https://wallpapers.com/background/time-1920-x-1052-background-lbdyvfqww5nycf8k.html" target="_blank">
               <img src="./sourceImages/clock.jpg" alt="clock" />
             </a>
+            <a href="https://stock.adobe.com/search?k=star+background" target="_blank">
+              <img src="./sourceImages/stars.webp" alt="clock" />
+            </a>
           </div>
           <h4 id="description">A 3D house model is a geometric representation of a house, featuring walls, a roof, and windows. It often includes additional details such as doors, chimneys, and balconies, with textures like brick, wood, or stucco to enhance realism. The interior may also feature rooms, furniture, and lighting for a more detailed design.</h4>
         </div>
