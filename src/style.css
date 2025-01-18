@@ -74,6 +74,10 @@ h2 {
   margin-top: 2em;
 }
 
+h3 {
+  font-size: 0.5;
+}
+
 #projects {
   /* Center project section */
   display: flex;
