@@ -44,6 +44,9 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
         <div id="images-description">
           <div id="images">
+            </div>
+              <h4 id="description">A 3D house model is a geometric representation of a house, featuring walls, a roof, and windows. It often includes additional details such as doors, chimneys, and balconies, with textures like brick, wood, or stucco to enhance realism. The interior may also feature rooms, furniture, and lighting for a more detailed design.</h4>
+            </div>
             <a href="https://peaksandstreams.com/2020/08/26/andy-good-peak-23-august-2020/" target="_blank">
               <img src="./sourceImages/andygood.jpg" alt="Andygood" />
             </a>
@@ -56,9 +59,7 @@ document.querySelector("#app").innerHTML = `
             <a href="https://stock.adobe.com/search?k=star+background" target="_blank">
               <img src="./sourceImages/stars.webp" alt="clock" />
             </a>
-          </div>
-          <h4 id="description">A 3D house model is a geometric representation of a house, featuring walls, a roof, and windows. It often includes additional details such as doors, chimneys, and balconies, with textures like brick, wood, or stucco to enhance realism. The interior may also feature rooms, furniture, and lighting for a more detailed design.</h4>
-        </div>
+
       </div>
     </section>
 
