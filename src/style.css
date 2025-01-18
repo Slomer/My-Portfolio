@@ -4,7 +4,7 @@
   line-height: 1.5;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.87);
-  background-image: url("stars.webp");
+  background-image: url("./sourceImages/stars.webp");
   background-color: #242424;
 }
 
@@ -105,9 +105,9 @@ h1 {
 
 img {
   /* Image dimensions and margin */
-  height: 200px;
+  height: 00px;
   width: 200px;
-  margin: 0.5em;
+  margin: 0.5e2m;
 }
 
 
