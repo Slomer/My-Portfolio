@@ -31,10 +31,17 @@ document.querySelector("#app").innerHTML = `
               .join("")}
           </div>
           <h4 id="description">A cubic 3D model is a geometric representation of a cube, consisting of six equal square faces joined at right angles. Each edge of the cube is of equal length, forming a symmetrical, rigid structure. The model can be textured, colored, or transparent, and it may include variations such as beveled edges or hollow interiors, depending on its intended purpose in design, animation, or engineering.</h4>
+          <div id="images">
+            ${calls
+              .map(
+                (call, index) => `<img src="${call}" alt="callout${index + 1}" />`
+              )
+              .join("")}
+          </div>
         </div>
       </div>
 
-      <h2>Image Sources</h2>
+      <h2>Sources</h2>
       <div id="project-row">
         <div id="images-description">
           <div id="images">
