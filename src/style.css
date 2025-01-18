@@ -75,7 +75,12 @@ h2 {
 }
 
 h3 {
-  font-size: 0.5;
+  height: 4em;
+  width: 35em;
+  font-weight: 100;
+  margin-left: 2em;
+  margin-top: 6em;
+  margin-bottom: 6em;
 }
 
 #projects {
