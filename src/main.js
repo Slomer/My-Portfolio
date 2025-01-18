@@ -14,13 +14,11 @@ document.querySelector("#app").innerHTML = `
     <section id="heading">
       <h1>${data.name}</h1>
       <p>${data.bio}</p>
-      <h2> </h2>
       <h2>Cadavre Exquis</h2>
     </section>
 
     <section id="projects">
       <div id="project-row">
-      Cadavre Exquis
         <div class="three-model">
           <img src="./cadavre/Cadavre Exquis.jpg" id="model1" alt="Cadavre Exquis" />
         </div>
