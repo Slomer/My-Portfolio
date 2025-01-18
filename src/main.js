@@ -14,6 +14,7 @@ document.querySelector("#app").innerHTML = `
     <section id="heading">
       <h1>${data.name}</h1>
       <p>${data.bio}</p>
+      <h2> </h2>
       <h2>Cadavre Exquis</h2>
     </section>
 
