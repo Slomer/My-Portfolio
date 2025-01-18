@@ -9,20 +9,12 @@ const calls = [
 ];
 
 
-const sources = [
-  "./sourceImages/clock.jpg",
-  "./sourceImages/stars.webp",
-  "./sourceImages/andygood.jpg",
-  "./sourceImages/tecumseh.jpg",
-  "./sourceImages/station.jpg",  
-];
-
-
 document.querySelector("#app").innerHTML = `
   <main id="container">
     <section id="heading">
       <h1>${data.name}</h1>
       <p>${data.bio}</p>
+      <h2>Cadavre Exquis</h2>
     </section>
 
     <section id="projects">
