@@ -74,7 +74,7 @@ document.querySelector("#app").innerHTML = `
   data.contact.github
 }</a></li>
     </ul>
-  </main>
+  </main>~
 `;
 
 // Create three.js scenes for each
