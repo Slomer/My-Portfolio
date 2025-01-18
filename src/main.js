@@ -71,10 +71,10 @@ document.querySelector("#app").innerHTML = `
         <div id="images-description">
           <div id="images">
             <a href="https://peaksandstreams.com/2020/08/26/andy-good-peak-23-august-2020/" target="_blank">
-              <img src="./sourceImages/andygood.jpg" alt="clock" />
+              <img src="./sourceImages/andygood.jpg" alt="Andygood" />
             </a>
             <a href="https://en.wikipedia.org/wiki/Mount_Tecumseh_%28Alberta%29" target="_blank">
-              <img src="./sourceImages/tecumseh.jpg" alt="clock" />
+              <img src="./sourceImages/tecumseh.jpg" alt="Tecumseh" />
             </a>
             <a href="https://wallpapers.com/background/time-1920-x-1052-background-lbdyvfqww5nycf8k.html" target="_blank">
               <img src="./sourceImages/clock.jpg" alt="clock" />
