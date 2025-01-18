@@ -8,6 +8,12 @@ const calls = [
   "./callouts/cube3.webp",
 ];
 
+const calls2 = [
+  "./callouts/Sam1.jpg",
+  "./callouts/cube2.webp",
+  "./callouts/cube3.webp",
+];
+
 
 document.querySelector("#app").innerHTML = `
   <main id="container">
@@ -23,13 +29,6 @@ document.querySelector("#app").innerHTML = `
           <img src="./cadavre/Cadavre Exquis.jpg" id="model1" alt="Cadavre Exquis" />
         </div>
         <div id="images-description">
-          <div id="images">
-            ${calls
-              .map(
-                (call, index) => `<img src="${call}" alt="callout${index + 1}" />`
-              )
-              .join("")}
-          </div>
           <h4 id="description">A cubic 3D model is a geometric representation of a cube, consisting of six equal square faces joined at right angles. Each edge of the cube is of equal length, forming a symmetrical, rigid structure. The model can be textured, colored, or transparent, and it may include variations such as beveled edges or hollow interiors, depending on its intended purpose in design, animation, or engineering.</h4>
           <div id="images">
             ${calls
