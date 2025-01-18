@@ -34,7 +34,7 @@ document.querySelector("#app").innerHTML = `
         </div>
       </div>
 
-      <h2>Sources</h2>
+      <h2>Image Sources</h2>
       <div id="project-row">
         <div id="images-description">
           <div id="images">
