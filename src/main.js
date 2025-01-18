@@ -2,18 +2,12 @@ import "./style.css";
 import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
-const cubes = [
-  "./cubeDrawings/Sam1.jpg",
-  "./cubeDrawings/cube2.webp",
-  "./cubeDrawings/cube3.webp",
+const calls = [
+  "./callouts/Sam1.jpg",
+  "./callouts/cube2.webp",
+  "./callouts/cube3.webp",
 ];
 
-const trees = [
-  "./treeDrawings/tree1.jpg",
-  "./treeDrawings/tree2.jpg",
-  "./treeDrawings/tree3.jpg",
-  "./treeDrawings/tree4.jpg",
-];
 
 const sources = [
   "./sourceImages/clock.jpg",
@@ -39,9 +33,9 @@ document.querySelector("#app").innerHTML = `
         </div>
         <div id="images-description">
           <div id="images">
-            ${cubes
+            ${calls
               .map(
-                (cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`
+                (call, index) => `<img src="${call}" alt="callout${index + 1}" />`
               )
               .join("")}
           </div>
@@ -49,23 +43,6 @@ document.querySelector("#app").innerHTML = `
         </div>
       </div>
 
-      <div id="project-row">
-      Model 2
-        <div class="three-model">
-          <div id="model2"></div>
-        </div>
-        <div id="images-description">
-          <div id="images">
-            ${trees
-              .map(
-                (trees, index) =>
-                  `<img src="${trees}" alt="tree${index + 1}" />`
-              )
-              .join("")}
-          </div>
-          <h4 id="description">A 3D tree model is a geometric representation of a tree, featuring a trunk, branches, and foliage. The trunk is typically cylindrical, with textured bark, while the branches extend outward to support leaves or a canopy. It may include roots or flowers for added detail.</h4>
-        </div>
-      </div>
 
       <div id="project-row">
         <div id="images-description">
