@@ -3,15 +3,21 @@ import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
 const calls = [
-  "./callouts/Sam1.jpg",
-  "./callouts/cube2.webp",
-  "./callouts/cube3.webp",
+  "./callouts/auroraBorealis.png",
+  "./callouts/bird.png",
+  "./callouts/mouthofGod.png",
 ];
 
 const calls2 = [
-  "./callouts/Sam1.jpg",
-  "./callouts/cube2.webp",
-  "./callouts/cube3.webp",
+  "./callouts2/chains.png",
+  "./callouts2/clocks.png",
+  "./callouts2/eyes.png",
+];
+
+const calls3 = [
+  "./callouts3/city.png",
+  "./callouts3/lake.png",
+  "./callouts3/surf.png",
 ];
 
 
@@ -20,7 +26,7 @@ document.querySelector("#app").innerHTML = `
     <section id="heading">
       <h1>${data.name}</h1>
       <p>${data.bio}</p>
-      <h2>Cadavre Exquis</h2>
+      <h2>Cadavre Exquis: Voyage</h2>
     </section>
 
     <section id="projects">
@@ -29,7 +35,19 @@ document.querySelector("#app").innerHTML = `
           <img src="./cadavre/Cadavre Exquis.jpg" id="model1" alt="Cadavre Exquis" />
         </div>
         <div id="images-description">
-          <h4 id="description">A cubic 3D model is a geometric representation of a cube, consisting of six equal square faces joined at right angles. Each edge of the cube is of equal length, forming a symmetrical, rigid structure. The model can be textured, colored, or transparent, and it may include variations such as beveled edges or hollow interiors, depending on its intended purpose in design, animation, or engineering.</h4>
+          <h4 id="description">The Cadavre Exquis is a form of collage, a method of creating a surreal image of what may be something deeper. This Cadavre emphasizes
+          the idea of a voyage to freedom from personal struggles with time, balance, outer judgement, and divine intervention. Through this project, I learned a bit more about how I
+          might be able to express my feelings and more outwardly, my thoughts. It began by fusing the ideas of nature, the city, and my own dreams. From there, I added ideas of excitement and 
+          personal struggles to create a contrast and end goal: escape.
+          There is a balance between the city and nature life ones lives in: The balance between my duties and leisure. It showcases my path: to be yearning for a freedom only found in solitude and nature,
+          by the guiding tools of God. Yet over the image, there is a swirling and mistful texture. This represents how this is all in the realm of mind and spirit, like a song 
+          committed to memory.
+          </h4>
+          <h4 id="description">The divine tools that guide my life into freedom make themselves clear: the aurora borealis creating an exciting wave to
+          ride on, light crows signaling the way to the light and protecting me from the dangers around to emphasize my resonance with nature, and the glowing presence of God. 
+          The crows themselves symbolize the nature I hold close to my heart, that place harbouring the mountains and lake on the bottom.
+          These are the things that pour out from the mouth eye of God, the things that are good and show the way to still waters.<br>
+          </h4>
           <div id="images">
             ${calls
               .map(
@@ -37,6 +55,37 @@ document.querySelector("#app").innerHTML = `
               )
               .join("")}
           </div>
+          <div id="images">
+            ${calls2
+              .map(
+                (call, index) => `<img src="${call}" alt="callout2${index + 1}" />`
+              )
+              .join("")}
+          </div>
+            <h4 id="description">The hostile eyes of judgement cease to exist when I pass through the threshold that is the light. These eyes represent all those who onlook on
+            my life, the people who scrutinize my actions and think to have their own plans for my life. The chains are formed by those meddlers, but the chains that 
+            revolve around my life are only an illusion as they are loosened. Without chains to hold me down, without people to force their way into my life,
+            I am free from the constraints of time as I can choose my own speed and destiny.<br></h4>
+            <div id="images">
+            ${calls3
+              .map(
+                (call, index) => `<img src="${call}" alt="callout2${index + 1}" />`
+              )
+              .join("")}
+          </div>
+            <h4 id="description"><br><br>The final images: the mountain and city life converging, the still lake, and the image of me surfing along the northern lights. They represent an
+            exciting and serene freedom, a place of harmonic mental and spiritual peace far away from the things that hold me back. With the ability to choose and make my own way, the
+            world is my oyster. The lake, rightside up, represents reality. When I reach this state of peacefulness, I am back in touch with reality.<br><br>
+            As the lake reflects the sun, it puts into perspective how all this is the other side; the unseen story behind the image of the life I lead.
+        </div>
+      </div>
+
+      <h2>Cinematic</h2>
+      <div id="project-row">
+        <div id=video">
+          <video controls>
+            <source src = "./video/Voyage.mp4" type="video/mp4">
+          </video>
         </div>
       </div>
 
@@ -56,9 +105,14 @@ document.querySelector("#app").innerHTML = `
             <a href="https://stock.adobe.com/search?k=star+background" target="_blank">
               <img src="./sourceImages/stars.webp" alt="clock" />
             </a>
-          <h4 id="description">A 3D house model is a geometric representation of a house, featuring walls, a roof, and windows. 
-          It often includes additional details such as doors, chimneys, and balconies, with textures like brick, 
-          wood, or stucco to enhance realism. The interior may also feature rooms, furniture, and lighting for a more detailed design.</h4>
+          <h4 id="description">
+          <br>McMurray, Dave. Picture of Andygood Peak.<br>
+          Wikipedia. Mount Tecumseh, southeast aspect.<br>
+          booallan. Time Conceptual Background with Clocks and Gears.<br>
+          Adobe Stock. Star Background.<br>
+          Music: Coahuila by Balmorhea<br>
+          All other images by Sam Padron.
+          </h4>
           </div>
         </div>
       </div>

@@ -1,10 +1,10 @@
 :root {
   /* Global font, line-height, and colors */
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 1.5;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #180038;
+  background-color: #0b001a;
 }
 
 * {
@@ -37,7 +37,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #333;
+  background-color: #1f001f;
   color: white;
   z-index: 10;
 }
@@ -113,7 +113,7 @@ h3 {
   width: 660px;
   margin-right: 3em;
   margin-left: 6em;
-  border: 1px solid #ccc;
+  border: 1px solid #ffa3ff;
 }
 
 img {
@@ -121,7 +121,14 @@ img {
   height: 200px;
   width: 200px;
   margin: 0.5em;
-  border: 1px solid #ccc;
+  border: 1px solid #ffa3ff;
+}
+
+video {
+  height: 480px;
+  width: 264px;
+  margin: 0.5em;
+  border: 1px solid #ffa3ff;
 }
 
 
@@ -148,11 +155,14 @@ img {
   align-items: center;
   position: relative;
   height: 4em;
-  width: 35em;
+  width: 45em;
   font-weight: 100;
   margin-left: 2em;
   margin-top: 6em;
-  margin-bottom: 6em;
+  margin-bottom: 8em;
+  text-align: justify;
+  text-justify: inter-word;
+  text-indent: 3em;
 }
 
 @media screen and (max-width: 768px) {
