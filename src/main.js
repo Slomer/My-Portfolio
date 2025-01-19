@@ -105,12 +105,16 @@ document.querySelector("#app").innerHTML = `
             <a href="https://stock.adobe.com/search?k=star+background" target="_blank">
               <img src="./sourceImages/stars.webp" alt="clock" />
             </a>
+            <a href="https://www.pexels.com/search/anchor/" target="_blank">
+              <img src="./sourceImages/anchor.jpg" alt="chain" />
+            </a>
+          </div>
           <h4 id="description">
-          <br>McMurray, Dave. Picture of Andygood Peak.<br>
-          Wikipedia. Mount Tecumseh, southeast aspect.<br>
-          booallan. Time Conceptual Background with Clocks and Gears.<br>
-          Adobe Stock. Star Background.<br>
-          Music: Coahuila by Balmorhea<br>
+          <br>- McMurray, Dave. Picture of Andygood Peak.<br>
+          - Wikipedia. Mount Tecumseh, southeast aspect.<br>
+          - booallan. Time Conceptual Background with Clocks and Gears.<br>
+          - Adobe Stock. Star Background.<br>
+          - Music: Coahuila by Balmorhea<br>
           All other images by Sam Padron.
           </h4>
           </div>
