@@ -35,7 +35,7 @@ document.querySelector("#app").innerHTML = `
           <img src="./cadavre/Cadavre Exquis.jpg" id="model1" alt="Cadavre Exquis" />
         </div>
         <div id="images-description">
-          <h4 id="description">The Cadavre Exquis is a form of collage, a method of creating a surreal image of what may be something deeper. This Cadavre emphasizes
+          <h4 id="description">This Cadavre emphasizes
           the idea of a voyage to freedom from personal struggles with time, balance, outer judgement, and divine intervention. Through this project, I learned a bit more about how I
           might be able to express my feelings and more outwardly, my thoughts. It began by fusing the ideas of nature, the city, and my own dreams. From there, I added ideas of excitement and 
           personal struggles to create a contrast and end goal: escape.
