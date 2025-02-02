@@ -2,6 +2,7 @@ import "./style.css";
 import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
+
 const calls = [
   "./callouts/auroraBorealis.png",
   "./callouts/bird.png",
@@ -23,12 +24,11 @@ const calls3 = [
 
 document.querySelector("#app").innerHTML = `
   <main id="container">
-    <section id="heading">
-      <h1>${data.name}</h1>
-      <p>${data.bio}</p>
-      <h2>Cadavre Exquis: Voyage</h2>
+    <section id="heading"><h1>Samuel Padron</h1>
+    <p>Undergraduate Architectural Student</p>
     </section>
-
+    <section id="heading">
+    <h2>Cadavre Exquis</h2></section>
     <section id="projects">
       <div id="project-row">
         <div class="three-model">
@@ -86,6 +86,94 @@ document.querySelector("#app").innerHTML = `
           <video controls>
             <source src = "./video/Voyage.mp4" type="video/mp4">
           </video>
+        </div>
+      </div>
+
+      <h2>Interoperability</h2>
+      <div id="project-row">
+        <div id="images-description">
+          <div id="chart">
+            <a href="/interop/chart.jpg" target="_blank">
+              <img src="./interop/chart.jpg" alt="chart" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div id="project-row">
+        <div id="description-images">
+          <h4 id="description">The differences between mesh and NURB 
+          modeling.<br>Changing between file types is something that can be useful because certain 
+          tasks or even qualities are made easier and clearer across file types. When transferring from Blender to Rhino, for example, I often found that STL files held more 
+          desirable qualities in terms of object quality than the other two.<br>In the final process of it all (3d printing and paper modeling) I found that STL files had no holes in them and made it easy to 3d print.  I made the models in Blender as it was easier to create using mesh modeling.  Blender was a very powerful tool in the creation of my second and third models as those were both closed objects, and the figure I made was much more of an organic form. These organic forms are much easier to make with mesh modeling compared to NURBS modeling because it allows for working not only with quads but also triangles.
+        </h4>
+        <div id="images">
+          <a href="/interop/model1.jpg" target="_blank">
+              <img src="./interop/model1.jpg" alt="model1" />
+          </a>
+          <a href="/interop/model2.jpg" target="_blank">
+              <img src="./interop/model2.jpg" alt="model2" />
+          </a>
+          <a href="/interop/model3.jpg" target="_blank">
+              <img src="./interop/model3.jpg" alt="model3" />
+          </a>
+          <a href="/interop/model4.jpg" target="_blank">
+              <img src="./interop/model4.jpg" alt="model4" />
+          </a>
+        </div>
+        <div id="images">
+          <a href="/interop/model5.jpg" target="_blank">
+              <img src="./interop/model5.jpg" alt="model5" />
+          </a>
+          <a href="/interop/model6.jpg" target="_blank">
+              <img src="./interop/model6.jpg" alt="model6" />
+          </a>
+          <a href="/interop/model7.jpg" target="_blank">
+              <img src="./interop/model7.jpg" alt="model7" />
+          </a>
+          <a href="/interop/model8.jpg" target="_blank">
+              <img src="./interop/model8.jpg" alt="model8" />
+          </a>
+        </div>
+        <h4 id="description">I liked the look of the SubD models the best as opposed to the mesh and NURBS models 
+          because it was a nice mix of both. The NURBS models in the assignment were much smoother than the meshes, which is something to take into consideration. In future projects, 
+          I will definitely consider mesh and SubD modeling for more organic looking forms like people or other creative objects, and NURB modeling for built structures with the need
+          for slick surfaces.</h4>
+        </div>
+      </div>
+      <div id="description-images">
+        <div id="images">
+          <a href="/interop/blenderClo.png" target="_blank">
+              <img src="./interop/blenderClo.png" alt="model5" />
+          </a>
+          <a href="/interop/rhinoClo.png" target="_blank">
+              <img src="./interop/rhinoClo.png" alt="model6" />
+          </a>
+          <a href="/interop/blenderPv.png" target="_blank">
+              <img src="./interop/blenderPv.png" alt="model7" />
+          </a>
+          <a href="/interop/rhinoPv.png" target="_blank">
+              <img src="./interop/rhinoPv.png" alt="model8" />
+          </a>
+        </div>
+        <div id="images">
+          <a href="/interop/blenderClo.png" target="_blank">
+              <img src="./interop/blenderFig.png" alt="model5" />
+          </a>
+          <a href="/interop/rhinoFig.png" target="_blank">
+              <img src="./interop/rhinoFig.png" alt="model6" />
+          </a>
+          <a href="/interop/paper.png" target="_blank">
+              <img src="./interop/paper.png" alt="model7" />
+          </a>
+            <a href="/interop/exploded.png" target="_blank">
+              <img src="./interop/exploded.png" alt="model8" />
+          </a>
+        </div>
+        <div id="images">
+          <a href="/interop/lowPoly.png" target="_blank">
+              <img src="./interop/lowPoly.png" alt="model5" />
+          </a>
         </div>
       </div>
 
